@@ -49,7 +49,7 @@ if(isset($_GET['page'])):
   	<h1><?echo $page['title']; ?></h1>
  <?php else:?>
    <?php foreach($page['list'] as $d):?>
- 				<li><a href="http://student.itdc.ge/mikheil.makhatelashvili/?listname=<?=$d['listname']?>"> <? echo $d['listname']?> <a/></li>
+ 				<li><a class="a" href="http://student.itdc.ge/mikheil.makhatelashvili/?listname=<?=$d['listname']?>"> <? echo $d['listname']?> <a/></li>
 
     <?php endforeach;?>
     
